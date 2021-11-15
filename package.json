@@ -1,0 +1,23 @@
+{
+  "name": "nft-metadata-printer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dd0sxx/nft-metadata-printer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dd0sxx/nft-metadata-printer/issues"
+  },
+  "homepage": "https://github.com/dd0sxx/nft-metadata-printer#readme",
+  "devDependencies": {
+    "tslint": "^6.1.3",
+    "typescript": "^4.4.4"
+  }
+}
