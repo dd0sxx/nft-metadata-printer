@@ -2,15 +2,24 @@ body {
     padding: 2%;
 }
 
+div {
+    font-size: 48px;
+}
+
 h1 {
     font-size: 72px;
 }
 
-.inputText {
-    width: 1200px;
-    height: 1200px;
+form {
+    padding: 1%;
+    font-size: 32px;
 }
-.form {
+
+.descriptiontextArea {
+    width: 1200px;
+    height: 600px;
+}
+.descriptionFormWrapper {
     width: 1200px;
     height: 1200px;
 }

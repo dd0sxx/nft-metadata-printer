@@ -1,12 +1,22 @@
 var root = document.querySelector('#root');
 var h1 = document.createElement('h1');
 h1.innerText = 'NFT Metadata Generator';
-var formWrapper = document.createElement('div');
-var form = document.createElement('form');
-formWrapper.className = 'form';
-var inputText = document.createElement('input');
-inputText.className = 'inputText';
+var image = document.createElement('div');
+var title = document.createElement('div');
+var description = document.createElement('div');
+var descriptionFormWrapper = document.createElement('div');
+var descriptionForm = document.createElement('form');
+var descriptiontextArea = document.createElement('textarea');
+image.innerText = 'ipfs hash:';
+title.innerText = 'title:';
+description.innerText = 'description:';
+descriptionFormWrapper.className = 'descriptionFormWrapper';
+descriptiontextArea.className = 'inputText';
 document.body.appendChild(h1);
+document.body.appendChild(description);
 document.body.appendChild(formWrapper);
 formWrapper.appendChild(form);
-form.appendChild(inputText);
+form.appendChild(textarea1);
+textarea1.addEventListener("input", function (e) {
+    console.log('brr: ', textarea1.value);
+});
